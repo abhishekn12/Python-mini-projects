@@ -2,7 +2,7 @@ import random
 
 print("Welcome to the game!")
 
-top_number = input("Type a number ")
+top_number = input("Type a number : ")
 if top_number.isdigit():
     top_number = int(top_number)
     
@@ -18,7 +18,7 @@ guesses =0
 
 while True:
     guesses+=1
-    user_guess = input("Make a guess ")
+    user_guess = input("Make a guess : ")
     if user_guess.isdigit():
         user_guess = int(user_guess)
     else:
@@ -32,6 +32,6 @@ while True:
         if(user_guess>rand_no):
             print("You were above the number")
         else:
-            print("You were below the number")
+            print("You were below the random number")
         
 print("You got it in ",guesses,"guess(es)")
