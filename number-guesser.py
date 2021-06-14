@@ -1,6 +1,6 @@
 import random
 
-print("Welcome to the game!")
+print("Welcome to the game!!")
 
 top_number = input("Type a number : ")
 if top_number.isdigit():
