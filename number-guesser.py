@@ -30,8 +30,8 @@ while True:
         break
     else:
         if(user_guess>rand_no):
-            print("You were above the number")
+            print("You were above the number!")
         else:
-            print("You were below the random number")
+            print("You were below the random number!")
         
 print("You got it in ",guesses,"guess(es)")
